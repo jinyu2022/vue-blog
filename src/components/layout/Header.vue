@@ -16,7 +16,6 @@ import { throttle } from "@/utils/index";
 
 const title = ref("");
 onBeforeRouteUpdate((to, from) => {
-  console.log("Route changed from", from, "to", to); 
   if (to.meta.title) {
     title.value = to.meta.title as string;
   }
@@ -33,7 +32,6 @@ const opacityWithScroll = () => {
         const navbarOpacity = parseFloat(
           navbar.value.style.getPropertyValue("--navbar-opacity")
         );
-        console.log(scrollTop, navbarOpacity);
         // 随着滚动条的滚动，逐渐改变导航栏的透明度，滚动到300px时达到最大不透明度0.3
         navbar.value.style.setProperty(
           "--navbar-opacity",

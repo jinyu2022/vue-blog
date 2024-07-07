@@ -39,7 +39,6 @@ const imageStyle = (index: number) => {
 
 /** 添加图片 */
 const addImg = (index: number) => {
-  console.log(index);
   if (index >= images.length - 2) {
     // 当到达图片数组末尾时，清除监听器
     console.log("清除监听器", new Date().toLocaleTimeString());
@@ -50,18 +49,11 @@ const addImg = (index: number) => {
 };
 // 计算动画的总时长
 const totalDuration = 6 * images.length;
-console.log(totalDuration);
 // 计算关键帧的百分数
 const fadeEnterFromPercentage = ((totalDuration - 7) / totalDuration) * 100;
 const fadeEnterToPercentage = ((totalDuration - 6) / totalDuration) * 100;
 const fadeLeaveFromPercentage = ((totalDuration - 1) / totalDuration) * 100;
 const fadeLeaveToPercentage = (totalDuration / totalDuration) * 100;
-console.log(
-  fadeEnterFromPercentage,
-  fadeEnterToPercentage,
-  fadeLeaveFromPercentage,
-  fadeLeaveToPercentage
-);
 const keyframes = `
   @keyframes fadeAnimation {
       0% { opacity: 0; }
