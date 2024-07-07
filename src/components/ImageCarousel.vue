@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from "vue";
+import { ref, computed, } from "vue";
 import img1 from "@/assets/75961171_p0_master1200.jpg";
 import img2 from "@/assets/83914344_p0_master1200.jpg";
 import img3 from "@/assets/101243336_p0_master1200.jpg";

@@ -15,13 +15,11 @@ declare module 'vue' {
     ElContainer: typeof import('element-plus/es')['ElContainer']
     ElFooter: typeof import('element-plus/es')['ElFooter']
     ElHeader: typeof import('element-plus/es')['ElHeader']
-    ElLink: typeof import('element-plus/es')['ElLink']
     ElMain: typeof import('element-plus/es')['ElMain']
     ElSpace: typeof import('element-plus/es')['ElSpace']
     ElTag: typeof import('element-plus/es')['ElTag']
     Footer: typeof import('./components/layout/Footer.vue')['default']
     Header: typeof import('./components/layout/Header.vue')['default']
-    HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     IconDocumentation: typeof import('./components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./components/icons/IconEcosystem.vue')['default']
     IconSupport: typeof import('./components/icons/IconSupport.vue')['default']
@@ -31,8 +29,6 @@ declare module 'vue' {
     Main: typeof import('./components/layout/Main.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheWelcome: typeof import('./components/TheWelcome.vue')['default']
     Waves: typeof import('./components/icons/Waves.vue')['default']
-    WelcomeItem: typeof import('./components/WelcomeItem.vue')['default']
   }
 }
