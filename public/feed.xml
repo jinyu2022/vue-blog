@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Your Blog's Title</title>
+        <link>https://yourblog.com/</link>
+        <description>This is my personal blog</description>
+        <lastBuildDate>Sun, 07 Jul 2024 07:34:53 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>All rights reserved 2023, Your Name</copyright>
+        <item>
+            <title><![CDATA[JS 实现打字机效果]]></title>
+            <link>https://yourblog.com/undefined</link>
+            <guid>https://yourblog.com/undefined</guid>
+            <pubDate>Thu, 04 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[本文详细讲解了如何使用 JavaScript 实现打字机效果，包括基本实现、循环播放效果和多个文本的循环打印效果，并提供了性能优化建议。]]></description>
+            <category>JavaScript</category>
+            <category>打字机效果</category>
+        </item>
+        <item>
+            <title><![CDATA[解决CSS基线对齐问题的方法]]></title>
+            <link>https://yourblog.com/undefined</link>
+            <guid>https://yourblog.com/undefined</guid>
+            <pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[了解CSS基线对齐问题的原因以及解决方法，提升网页设计的准确性和美观度。]]></description>
+            <category>CSS</category>
+            <category>网页布局</category>
+        </item>
+        <item>
+            <title><![CDATA[协程中的数据安全问题及解决方案]]></title>
+            <link>https://yourblog.com/undefined</link>
+            <guid>https://yourblog.com/undefined</guid>
+            <pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[讨论JavaScript中协程导致的数据安全问题及其解决方案，确保代码的正确性和可靠性。]]></description>
+            <category>JavaScript</category>
+            <category>协程</category>
+        </item>
+    </channel>
+</rss>
