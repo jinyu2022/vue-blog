@@ -50,4 +50,7 @@ import { RouterView } from "vue-router";
   margin-bottom: 1.25rem;
   padding-left: 1.5rem;
 } 
+.md img{
+  max-width: 100%;
+}
 </style>
