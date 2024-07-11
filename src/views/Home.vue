@@ -21,5 +21,5 @@ const blogRoute = allRoutes[0].children.find((route) => route.name === "blog");
 const blogMetaInfo = blogRoute?.children?.map((child) => ({
   name: child.name,
   ...child.meta,
-}));
+})).reverse();
 </script>

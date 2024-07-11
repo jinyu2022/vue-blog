@@ -4,7 +4,7 @@
         <title>Your Blog's Title</title>
         <link>https://yourblog.com/</link>
         <description>This is my personal blog</description>
-        <lastBuildDate>Sun, 07 Jul 2024 11:49:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jul 2024 08:41:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>All rights reserved 2023, Your Name</copyright>
@@ -34,6 +34,14 @@
             <description><![CDATA[讨论JavaScript中协程导致的数据安全问题及其解决方案，确保代码的正确性和可靠性。]]></description>
             <category>JavaScript</category>
             <category>协程</category>
+        </item>
+        <item>
+            <title><![CDATA[告别嵌套循环的烦恼：JavaScript 标签语法]]></title>
+            <link>https://yourblog.com/undefined</link>
+            <guid>https://yourblog.com/undefined</guid>
+            <pubDate>Thu, 11 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[在 JavaScript 中，如何优雅地跳出多层嵌套循环？本文将带你了解标签语法的妙用，以及其他可行的解决方案。...标签语法提供了一种简洁优雅的方式来跳出多层嵌套循环。然而，过度使用标签语法可能会降低代码的可读性和可维护性。在实际开发中，我们需要根据具体情况选择合适的解决方案。]]></description>
+            <category>JavaScript</category>
         </item>
     </channel>
 </rss>

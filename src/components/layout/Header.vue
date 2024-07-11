@@ -10,11 +10,12 @@
   <h1 id="title">{{ title }}</h1>
 </template>
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from "vue";
-import { onBeforeRouteUpdate, RouterLink } from "vue-router";
+import { onMounted, onUnmounted, ref,watch } from "vue";
+import { useRoute,onBeforeRouteUpdate , RouterLink } from "vue-router";
 import { throttle } from "@/utils/index";
 
-const title = ref("");
+const route = useRoute()
+const title = ref(route.meta.title);
 onBeforeRouteUpdate((to, from) => {
   if (to.meta.title) {
     title.value = to.meta.title as string;
